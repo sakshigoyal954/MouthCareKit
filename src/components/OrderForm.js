@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@emotion/react";
-import kit from "../images/medicin.png";
+import kit from "../images/dwai.png";
 
 import {
   Box,
@@ -26,7 +26,7 @@ const OrderForm = () => {
           मैं आपके पाठकों को बताउंगा कि मुंह खुलने की समस्या आज बहुत से लोगों को
           हो रही है और उन्होंने कई दवाइयां, सर्जरी, ऑपरेशन, इंजेक्शन भी ले लिए
           होंगे लेकिन उनमें ज़रा सा भी बदलाव नहीं हो रहा है। तो आखिर में इतना
-          बताता हु की <b style={{ color: "#DD952B" }}>Herbal Mouthcare Kit</b>{" "}
+          बताता हु की <b style={{ color: "#DD952B" }}>Ayura Mouthcare Kit</b>{" "}
           एकबार जरूर इस्तेमाल कीजिये।
         </Typography>
 
@@ -71,7 +71,7 @@ const OrderForm = () => {
             fontWeight={600}
             pt={3}
           >
-            <b style={{ color: "#DD952B" }}>Herbal Mouthcare Kit</b> ऑर्डर देने
+            <b style={{ color: "#DD952B" }}>Ayura Mouthcare Kit</b> ऑर्डर देने
             के लिए नीचे दिया गया फॉर्म भरें।
           </Typography>
         </Grid>
@@ -162,7 +162,7 @@ const OrderForm = () => {
           </Grid>
         </Grid>
         <Grid item lg={4.5}>
-          <Box sx={{ textAlign: "end" , pb:0}}>
+          {/* <Box sx={{ textAlign: "end" , pb:0}}>
             <Typography fontSize={18} fontWeight={600} color="primary.main">
               {" "}
               Old Price: <strike>2300</strike>
@@ -171,7 +171,7 @@ const OrderForm = () => {
               {" "}
               New Price : 1800
             </Typography>
-          </Box>
+          </Box> */}
           <Box component="img" src={kit} width="100%" />
         </Grid>
       </Grid>

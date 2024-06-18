@@ -6,7 +6,7 @@ import headImg from "../images/1.jpg"; // Make sure the path to the image is cor
 const SubHeader = () => {
   // Data object containing the text to display
   const data = {
-    firsthead: "पत्ते, मावा, गुटका या तंबाकू खाने के बाद मुंह खोलने में दिक्कत होती है? तो Herbal Mouthcare Kit मुँह खोलने में मदद करेगा।"
+    firsthead: "पत्ते, मावा, गुटका या तंबाकू खाने के बाद मुंह खोलने में दिक्कत होती है? तो Ayura Mouthcare Kit मुँह खोलने में मदद करेगा।"
   };
 
   return (
