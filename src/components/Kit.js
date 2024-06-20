@@ -29,9 +29,9 @@ const Kit = () => {
         करता है। ज्ञान का व्यवस्थित तरीके से उपयोग किया जाना चाहिए।
       </Typography>
 
-      <Box pt={3} sx={{textAlign:"end"}}>
+      <Box pt={3} sx={{textAlign:{md:"end",xs:"left"}}}>
         <Typography color={"#DD952B"} fontSize={26} padding={2}>
-        Ayura Mouthcare Kit में 4 प्रोडक्ट हैं।
+        Ayura Mouthcare Kit में 2 प्रोडक्ट हैं।
         </Typography>
         <Divider style={{ backgroundColor: "#DD952B" }} />
       </Box>
@@ -40,7 +40,7 @@ const Kit = () => {
         container
         sx={{ justifyContent: "space-between", alignItems: "center",pt:5 }}
       >
-        <Grid item lg={7} md={6} xs={12}>
+        <Grid item lg={7.5} md={6} xs={12}>
           <Box pr={3}>
             <h3>1) फोरम गम मसाज पाउडर</h3>
             <Typography
@@ -54,7 +54,7 @@ const Kit = () => {
               मजबूत बनाती है, मुंह खोलने में मदद करती है।
             </Typography>
 
-            <h3 style={{paddingTop:"10px"}}>2) माउथ केयर लोशन</h3>
+            <h3 style={{paddingTop:"20px"}}>2) माउथ केयर लोशन</h3>
             <Typography
               fontSize={18}
               textAlign="justify"
@@ -64,20 +64,10 @@ const Kit = () => {
               दिन में दो बार 3 से 5 मिनट तक मसूड़ों पर मसाज करें फिर गर्म पानी
               से गरारे करे।
             </Typography>
-
-            <h3 style={{paddingTop:"10px"}}>3) हर्बेक्स मसाज ऑयल</h3>
-            <Typography
-              fontSize={18}
-              textAlign="justify"
-              pt={1}
-              sx={{ lineHeight: 2 }}
-            >
-              एक बूंद उंगली पर लें और गाल के बाहर कान के नीचे मसाज करे
-            </Typography>
           </Box>
         </Grid>
 
-        <Grid item lg={5} md={6} xs={12}>
+        <Grid item lg={4} md={6} xs={10}>
           <Box
             component="img"
             src={kit}

@@ -32,7 +32,7 @@ const OrderForm = () => {
 
         <Grid item lg={10}>
          
-          <Box sx={{display:"flex" }}>
+          <Box sx={{display:{md:"flex", xs:"block"} }}>
           <Typography
             fontSize={20}
             lineHeight={2}
@@ -49,7 +49,7 @@ const OrderForm = () => {
               textAlign="justify"
               fontWeight={600}
               pt={3}
-              pl={4}
+              sx={{pl:{md:4,xs:0}}}
             >
               • सिर्फ 7 दिन में मुंह खुलने लगेगा
             </Typography>
@@ -59,7 +59,8 @@ const OrderForm = () => {
               textAlign="justify"
               fontWeight={600}
               pt={3}
-              pl={4}
+              sx={{pl:{md:4,xs:0}}}
+
             >
               • 100% संतुष्टि की गारंटी के साथ
             </Typography>
@@ -78,9 +79,9 @@ const OrderForm = () => {
       </Grid>
 
       <Grid container justifyContent="space-between" alignItems="center">
-        <Grid item lg={7}>
+        <Grid item lg={7.5} md={7} xs={12}>
           <Grid container py={2} justifyContent="space-between" rowGap={4}>
-            <Grid item lg={5.5}>
+            <Grid item lg={5.5} md={5.5} xs={10}>
               <FormControl fullWidth>
                 <TextField
                   label="First Name"
@@ -95,7 +96,7 @@ const OrderForm = () => {
                 />
               </FormControl>
             </Grid>
-            <Grid item lg={5.5}>
+            <Grid item lg={5.5} md={5.5} xs={10}>
               <FormControl fullWidth>
                 <TextField
                   label="Last Name"
@@ -111,7 +112,7 @@ const OrderForm = () => {
               </FormControl>
             </Grid>
 
-            <Grid item lg={5.5}>
+            <Grid item lg={5.5} md={5.5} xs={10}>
               <FormControl fullWidth>
                 <TextField
                   label="Mobile No."
@@ -126,7 +127,7 @@ const OrderForm = () => {
                 />
               </FormControl>
             </Grid>
-            <Grid item lg={5.5}>
+            <Grid item lg={5.5} md={5.5} xs={10}>
               <FormControl fullWidth>
                 <TextField
                   label="Pincode"
@@ -142,7 +143,7 @@ const OrderForm = () => {
               </FormControl>
             </Grid>
 
-            <Grid item lg={12}>
+            <Grid item lg={12} md={12} xs={10}>
               <FormControl fullWidth>
                 <TextField
                   label="Address."
@@ -161,7 +162,7 @@ const OrderForm = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item lg={4.5}>
+        <Grid item lg={4}  md={4.5} sx={{display:{md:"block",xs:"none"}}}>
           {/* <Box sx={{ textAlign: "end" , pb:0}}>
             <Typography fontSize={18} fontWeight={600} color="primary.main">
               {" "}
