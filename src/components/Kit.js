@@ -1,11 +1,66 @@
 import React from "react";
-import kit from "../images/medicin.png";
-import { Box, Divider, Grid, Typography } from "@mui/material";
+import kit from "../images/dwai1.png";
+import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
+import img1 from "../images/4.png";
+import Form2 from "./Form2";
 
 const Kit = () => {
   return (
     <div>
-       <Box py={3}>
+      <div>
+        <Typography
+          fontSize={25}
+          fontWeight={600}
+          sx={{ lineHeight: 2 }}
+          px={3}
+          py={3}
+          textAlign="justify"
+        >
+          डॉ.राजेश चतुर्वेदी 25 दिनों में मुंह खोलने की गंभीर से गंभीर समस्या को
+          भी ठीक कर सकते हैं। जहां तक मुंह खोलने की बात है, यदि आप सही तरीके से
+          इलाज करते हैं, तो आपको 7 दिनों में परिणाम मिल जाएगा। जो उन्होंने अपने
+          15 साल के अभ्यास में कई बार किया है।
+        </Typography>
+        <Box
+          component="img"
+          src={img1}
+          width="100%"
+          sx={{ borderRadius: 15 }}
+        />
+
+<Form2/>
+
+        <div>
+          <Box py={3} sx={{ textAlign: "end" }}>
+            <Typography color={"#DD952B"} fontSize={26} padding={2}>
+              यह रहस्य क्या है ?
+            </Typography>
+            <Divider style={{ backgroundColor: "#DD952B" }} />
+          </Box>
+          <Typography fontSize={18} textAlign="justify" sx={{ lineHeight: 2 }}>
+            वास्तव में यह रहस्य सरल है। हमें मुंह बंद होने का कारण समझना चाहिए।
+            आज चिकित्सा में उसके कई कारण हैं। लेकिन आम कारण है मुंह के अंदर और
+            बाहर की त्वचा का मोटा होना, क्या आप जानते हैं ऐसा क्यों होता है ?
+            लंबे समय तक मुंह के अंदरूनी हिस्से में पत्ते, पान, मावा, गुटखा या
+            तंबाकू रखने के कारण मुँह की कोमल स्नायु डेमेज हो जाती है। फिर धीरे
+            धीरे मुँह बंद होने लगता है। उसके बाद ज्यादा तीखा और मसालेदार खाना भी
+            मुश्किल हो जाता है।
+          </Typography>
+          <Typography
+            fontSize={18}
+            textAlign="justify"
+            pt={2}
+            sx={{ lineHeight: 2 }}
+          >
+            रहस्य ये है की हम रक्त प्रवाह और त्वचा में सुधार करते हैं। हमारी
+            दवाई के उपयोग से मुंह के अंदर की त्वचा में नमी आती है , कोमल हो जाती
+            है, और ब्लॉक हो गए स्नायु में फिर से रक्तप्रवाह दौड़ ने लगता है। और
+            फिर धीरे-धीरे पहले की तरह मुंह खुलने लगता है।
+          </Typography>
+        </div>
+      </div>
+
+      <Box py={3}>
         <Typography color={"#DD952B"} fontSize={26} padding={2}>
           यह Ayura Mouthcare Kit कैसे काम करता है?
         </Typography>
@@ -29,18 +84,18 @@ const Kit = () => {
         करता है। ज्ञान का व्यवस्थित तरीके से उपयोग किया जाना चाहिए।
       </Typography>
 
-      <Box pt={3} sx={{textAlign:{md:"end",xs:"left"}}}>
+      <Box pt={3} sx={{ textAlign: { md: "end", xs: "left" } }}>
         <Typography color={"#DD952B"} fontSize={26} padding={2}>
-        Ayura Mouthcare Kit में 2 प्रोडक्ट हैं।
+          Ayura Mouthcare Kit में 2 प्रोडक्ट हैं।
         </Typography>
         <Divider style={{ backgroundColor: "#DD952B" }} />
       </Box>
 
       <Grid
         container
-        sx={{ justifyContent: "space-between", alignItems: "center",pt:5 }}
+        sx={{ justifyContent: "space-between", alignItems: "center", pt: 5 }}
       >
-        <Grid item lg={7.5} md={6} xs={12}>
+        <Grid item lg={7} md={6} xs={12}>
           <Box pr={3}>
             <h3>1) फोरम गम मसाज पाउडर</h3>
             <Typography
@@ -54,7 +109,7 @@ const Kit = () => {
               मजबूत बनाती है, मुंह खोलने में मदद करती है।
             </Typography>
 
-            <h3 style={{paddingTop:"20px"}}>2) माउथ केयर लोशन</h3>
+            <h3 style={{ paddingTop: "20px" }}>2) माउथ केयर लोशन</h3>
             <Typography
               fontSize={18}
               textAlign="justify"
@@ -67,7 +122,7 @@ const Kit = () => {
           </Box>
         </Grid>
 
-        <Grid item lg={4} md={6} xs={10}>
+        <Grid item lg={5} md={6} xs={10}>
           <Box
             component="img"
             src={kit}

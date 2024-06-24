@@ -7,6 +7,8 @@ import Certificate from "../components/Certificate";
 import Kit from "../components/Kit";
 import OrderForm from "../components/OrderForm";
 import Discription from "../components/Discription";
+import TestImg from "../components/TestImg";
+import Exersice from "../components/Exersice";
 
 const Home = () => {
   return (
@@ -20,8 +22,14 @@ const Home = () => {
           <SubHeader />
         </Box>
 
+      
+
         <Box pb={5}>
           <About />
+        </Box>
+
+        <Box pb={5}>
+       <TestImg/>
         </Box>
 
         <Box pb={5}>
@@ -30,6 +38,10 @@ const Home = () => {
 
         <Box pb={5}>
           <Discription />
+        </Box>
+
+        <Box pb={5}>
+          <Exersice />
         </Box>
 
         <Box pb={5}>

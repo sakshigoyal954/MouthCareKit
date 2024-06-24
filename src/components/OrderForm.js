@@ -1,4 +1,84 @@
-import { ThemeProvider } from "@emotion/react";
+im <Grid container py={2} justifyContent="space-between" rowGap={4}>
+            <Grid item lg={5.5} md={5.5} xs={10}>
+              <FormControl fullWidth>
+                <TextField
+                  label="First Name"
+                  type="text"
+                  placeholder="First Name"
+                  required
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      borderRadius: "25px", // Apply border radius to the input
+                    },
+                  }}
+                />
+              </FormControl>
+            </Grid>
+            <Grid item lg={5.5} md={5.5} xs={10}>
+              <FormControl fullWidth>
+                <TextField
+                  label="Last Name"
+                  type="text"
+                  placeholder="Last Name"
+                  required
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      borderRadius: "25px", // Apply border radius to the input
+                    },
+                  }}
+                />
+              </FormControl>
+            </Grid>
+
+            <Grid item lg={5.5} md={5.5} xs={10}>
+              <FormControl fullWidth>
+                <TextField
+                  label="Mobile No."
+                  type="tel"
+                  placeholder="Mobile No."
+                  required
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      borderRadius: "25px", // Apply border radius to the input
+                    },
+                  }}
+                />
+              </FormControl>
+            </Grid>
+            <Grid item lg={5.5} md={5.5} xs={10}>
+              <FormControl fullWidth>
+                <TextField
+                  label="Pincode"
+                  type="text"
+                  placeholder="Pincode"
+                  required
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      borderRadius: "25px", // Apply border radius to the input
+                    },
+                  }}
+                />
+              </FormControl>
+            </Grid>
+
+            <Grid item lg={12} md={12} xs={10}>
+              <FormControl fullWidth>
+                <TextField
+                  label="Address."
+                  type="text"
+                  placeholder="Address."
+                  required
+                  sx={{
+                    "& .MuiOutlinedInput-root": {
+                      borderRadius: "25px", // Apply border radius to the input
+                    },
+                  }}
+                />
+              </FormControl>
+
+              <OrderBtn />
+            </Grid>
+          </Grid>port { ThemeProvider } from "@emotion/react";
 import kit from "../images/dwai.png";
 
 import {
@@ -80,87 +160,7 @@ const OrderForm = () => {
 
       <Grid container justifyContent="space-between" alignItems="center">
         <Grid item lg={7.5} md={7} xs={12}>
-          <Grid container py={2} justifyContent="space-between" rowGap={4}>
-            <Grid item lg={5.5} md={5.5} xs={10}>
-              <FormControl fullWidth>
-                <TextField
-                  label="First Name"
-                  type="text"
-                  placeholder="First Name"
-                  required
-                  sx={{
-                    "& .MuiOutlinedInput-root": {
-                      borderRadius: "25px", // Apply border radius to the input
-                    },
-                  }}
-                />
-              </FormControl>
-            </Grid>
-            <Grid item lg={5.5} md={5.5} xs={10}>
-              <FormControl fullWidth>
-                <TextField
-                  label="Last Name"
-                  type="text"
-                  placeholder="Last Name"
-                  required
-                  sx={{
-                    "& .MuiOutlinedInput-root": {
-                      borderRadius: "25px", // Apply border radius to the input
-                    },
-                  }}
-                />
-              </FormControl>
-            </Grid>
-
-            <Grid item lg={5.5} md={5.5} xs={10}>
-              <FormControl fullWidth>
-                <TextField
-                  label="Mobile No."
-                  type="tel"
-                  placeholder="Mobile No."
-                  required
-                  sx={{
-                    "& .MuiOutlinedInput-root": {
-                      borderRadius: "25px", // Apply border radius to the input
-                    },
-                  }}
-                />
-              </FormControl>
-            </Grid>
-            <Grid item lg={5.5} md={5.5} xs={10}>
-              <FormControl fullWidth>
-                <TextField
-                  label="Pincode"
-                  type="text"
-                  placeholder="Pincode"
-                  required
-                  sx={{
-                    "& .MuiOutlinedInput-root": {
-                      borderRadius: "25px", // Apply border radius to the input
-                    },
-                  }}
-                />
-              </FormControl>
-            </Grid>
-
-            <Grid item lg={12} md={12} xs={10}>
-              <FormControl fullWidth>
-                <TextField
-                  label="Address."
-                  type="text"
-                  placeholder="Address."
-                  required
-                  sx={{
-                    "& .MuiOutlinedInput-root": {
-                      borderRadius: "25px", // Apply border radius to the input
-                    },
-                  }}
-                />
-              </FormControl>
-
-              <OrderBtn />
-            </Grid>
-          </Grid>
+         
         </Grid>
         <Grid item lg={4}  md={4.5} sx={{display:{md:"block",xs:"none"}}}>
           {/* <Box sx={{ textAlign: "end" , pb:0}}>

@@ -1,7 +1,6 @@
-import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
+import { Box, Grid, Stack, Typography } from "@mui/material";
 import React from "react";
 import abtImg from "../images/abtImg.png";
-import img1 from "../images/4.png";
 const About = () => {
   return (
     <div>
@@ -42,8 +41,6 @@ const About = () => {
         </Grid>
       </Grid>
 
-      <Divider orientation="vertical" flexItem variant="fullwidth" />
-
       <Stack spacing={4} py={3}>
         <Box sx={{ borderLeft: "2.5px solid #DD952B", px: 3 }}>
           <Typography fontWeight={500} fontSize={25} textAlign="justify">
@@ -59,52 +56,6 @@ const About = () => {
           </Typography>
         </Box>
       </Stack>
-
-      <Typography
-        fontSize={25}
-        fontWeight={600}
-        sx={{ lineHeight: 2 }}
-        px={3}
-        py={3}
-        textAlign="justify"
-      >
-        डॉ.राजेश चतुर्वेदी 25 दिनों में मुंह खोलने की गंभीर से गंभीर समस्या को
-        भी ठीक कर सकते हैं। जहां तक मुंह खोलने की बात है, यदि आप सही तरीके से
-        इलाज करते हैं, तो आपको 7 दिनों में परिणाम मिल जाएगा। जो उन्होंने अपने 15
-        साल के अभ्यास में कई बार किया है।
-      </Typography>
-      <Box component="img" src={img1} width="100%" sx={{ borderRadius: 15 }} />
-
-      <div>
-        <Box py={3} sx={{textAlign:"end"}}>
-          <Typography color={"#DD952B"} fontSize={26} padding={2}>
-            यह रहस्य क्या है ?
-          </Typography>
-          <Divider style={{ backgroundColor: "#DD952B" }} />
-        </Box>
-        <Typography fontSize={18} textAlign="justify" sx={{ lineHeight: 2 }}>
-          वास्तव में यह रहस्य सरल है। हमें मुंह बंद होने का कारण समझना चाहिए। आज
-          चिकित्सा में उसके कई कारण हैं। लेकिन आम कारण है मुंह के अंदर और बाहर
-          की त्वचा का मोटा होना, क्या आप जानते हैं ऐसा क्यों होता है ? लंबे समय
-          तक मुंह के अंदरूनी हिस्से में पत्ते, पान, मावा, गुटखा या तंबाकू रखने
-          के कारण मुँह की कोमल स्नायु डेमेज हो जाती है। फिर धीरे धीरे मुँह बंद
-          होने लगता है। उसके बाद ज्यादा तीखा और मसालेदार खाना भी मुश्किल हो जाता
-          है।
-        </Typography>
-        <Typography
-          fontSize={18}
-          textAlign="justify"
-          pt={2}
-          sx={{ lineHeight: 2 }}
-        >
-          रहस्य ये है की हम रक्त प्रवाह और त्वचा में सुधार करते हैं। हमारी दवाई
-          के उपयोग से मुंह के अंदर की त्वचा में नमी आती है , कोमल हो जाती है, और
-          ब्लॉक हो गए स्नायु में फिर से रक्तप्रवाह दौड़ ने लगता है। और फिर
-          धीरे-धीरे पहले की तरह मुंह खुलने लगता है।
-        </Typography>
-      </div>
-
-    
     </div>
   );
 };
