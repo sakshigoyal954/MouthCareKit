@@ -36,7 +36,6 @@ const About = () => {
             component="img"
             src={abtImg}
             width="100%"
-            sx={{ borderRadius: "50%" }}
           />
         </Grid>
       </Grid>
