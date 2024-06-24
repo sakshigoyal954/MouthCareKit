@@ -16,7 +16,7 @@ const SubHeader = () => {
         <Box>
           <Typography
             sx={{
-              fontSize: { lg: 55, md: 45, sm: 30 },
+              fontSize: { lg: "55px", md: "45px", sm: "40px" },
               fontWeight: 500,
               textAlign: "center"
             }}

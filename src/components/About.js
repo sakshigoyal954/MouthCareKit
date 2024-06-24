@@ -11,7 +11,7 @@ const About = () => {
         <Grid item lg={7} md={8} sm={12}>
           <Box pr={3}>
             <Typography fontSize={30} fontWeight="bold">
-              डॉ.राजेश चतुर्वेदी की चौंकाने वाली ख़ोज....
+            AYURA MOUTHCARE की चौंकाने वाली ख़ोज....
             </Typography>
             <Typography
               fontSize={20}
