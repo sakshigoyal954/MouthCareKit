@@ -15,8 +15,8 @@ const Form2 = () => {
   const handelclick = () => {
     Swal.fire({
       icon: "success",
-      title: "SUccess",
-      text: "Query send successfully. We contact you soon as possible",
+      title: "Success",
+      text: "Query send successfully. We contact you soon as possible.",
     });
   };
   return (
