@@ -26,6 +26,7 @@ const Form2 = () => {
           border: "2px solid #DD952B",
           padding: "10px 10px 30px 10px",
           borderRadius: "15px",
+          backgroundColor: "primary.light"
         }}
       >
         <h2
