@@ -13,6 +13,7 @@ import Exersice from "../components/Exersice";
 import Footer from "../components/Footer";
 import logo from "../images/logo.png";
 import LogoutIcon from "@mui/icons-material/Logout";
+import Review from "../components/Review";
 const Home = () => {
   return (
     <Layout>
@@ -85,6 +86,10 @@ const Home = () => {
 
         <Box pb={5}>
           <Certificate />
+        </Box>
+
+        <Box>
+          <Review/>
         </Box>
       </Container>
 

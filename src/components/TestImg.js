@@ -26,15 +26,15 @@ const TestImg = () => {
       </Box>
       </div>
 
-      <Grid container sx={{ justifyContent: "space-between" }}>
-        <Grid lg={3.5} item>
+      <Grid container sx={{ justifyContent: "space-between",textAlign:"center" }} rowGap={2}>
+        <Grid lg={3.5} md={6} xs={12} item>
           <Box component="img" src={t1} width="100%"  height="230px" sx={{borderRadius:15, border:"2px solid #DD952B"}}/>
 
         </Grid>
-        <Grid lg={3.5} item data-aos="zoom-out-left">
+        <Grid lg={3.5} md={6} xs={12} item data-aos="zoom-out-left">
           <Box  component="img" src={t2} width="100%" height="230px" sx={{borderRadius:15, border:"2px solid #DD952B"}}/>
         </Grid>
-        <Grid lg={3.5} item>
+        <Grid lg={3.5} md={6} xs={12} item>
           <Box component="img" src={t3} width="100%"  height="230px" sx={{borderRadius:15, border:"2px solid #DD952B"}}/>
         </Grid>
       
