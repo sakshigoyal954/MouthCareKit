@@ -62,14 +62,12 @@ const Home = () => {
           <SubHeader />
         </Box>
 
-      
-
         <Box pb={5}>
           <About />
         </Box>
 
         <Box pb={5}>
-       <TestImg/>
+          <TestImg />
         </Box>
 
         <Box pb={5}>

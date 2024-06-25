@@ -1,25 +1,9 @@
-import {
-  Box,
-  FormControl,
-  Grid,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
-import OrderBtn from "./OrderBtn";
-import Swal from "sweetalert2";
 import kit from "../images/dwai.png";
+import Form2 from "./Form2";
 
 const OrderForm = () => {
-
-  const handelclick = () => {
-    Swal.fire({
-      icon: "success",
-      title: "SUccess",
-      text: "Query send successfully. We contact you soon as possible",
-    });
-  }
-
   return (
     <div>
       <Grid container py={3}>
@@ -82,107 +66,17 @@ const OrderForm = () => {
       </Grid>
 
       <div id="contactUs">
-      <Grid container justifyContent="space-between" alignItems="center">
-        <Grid item lg={7.5} md={7} xs={12}>
-          <Grid
-            sx={{
-              border: "2px solid #DD952B",
-              padding: "10px 10px 30px 10px",
-              borderRadius: "15px",
-            }}
-          >
-            <h2 style={{textAlign:"center", paddingBottom:"10px", fontSize:"35px", borderBottom:"2px solid #DD952B",color: "#DD952B"}}>Order Now</h2>
-            
-            <Grid container py={2} pt={4} justifyContent="space-between" rowGap={4}>
-              <Grid item lg={5.5} md={5.5} xs={12}>
-                <FormControl fullWidth>
-                  <TextField
-                    label="First Name"
-                    type="text"
-                    placeholder="First Name"
-                    required
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: "25px", // Apply border radius to the input
-                      },
-                    }}
-                  />
-                </FormControl>
-              </Grid>
-              <Grid item lg={5.5} md={5.5} xs={12}>
-                <FormControl fullWidth>
-                  <TextField
-                    label="Last Name"
-                    type="text"
-                    placeholder="Last Name"
-                    required
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: "25px", // Apply border radius to the input
-                      },
-                    }}
-                  />
-                </FormControl>
-              </Grid>
-
-              <Grid item lg={5.5} md={5.5} xs={12}>
-                <FormControl fullWidth>
-                  <TextField
-                    label="Mobile No."
-                    type="tel"
-                    placeholder="Mobile No."
-                    required
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: "25px", // Apply border radius to the input
-                      },
-                    }}
-                  />
-                </FormControl>
-              </Grid>
-              <Grid item lg={5.5} md={5.5} xs={12}>
-                <FormControl fullWidth>
-                  <TextField
-                    label="Pincode"
-                    type="text"
-                    placeholder="Pincode"
-                    required
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: "25px", // Apply border radius to the input
-                      },
-                    }}
-                  />
-                </FormControl>
-              </Grid>
-
-              <Grid item lg={12} md={12} xs={12}>
-                <FormControl fullWidth>
-                  <TextField
-                    label="Address."
-                    type="text"
-                    placeholder="Address."
-                    required
-                    sx={{
-                      "& .MuiOutlinedInput-root": {
-                        borderRadius: "25px", // Apply border radius to the input
-                      },
-                    }}
-                  />
-                </FormControl>
-
-                <OrderBtn handelclick={handelclick}/>
-              </Grid>
-            </Grid>
+        <Grid container justifyContent="space-between" alignItems="center">
+          <Grid item lg={7.5} md={7} xs={12}>
+            <Form2 />
           </Grid>
-        </Grid>
-        <Grid
-          item
-          lg={4}
-          md={4.5}
-          sx={{ display: { md: "block", xs: "none" } }}
-        >
-          {/* <Box sx={{ textAlign: "end" , pb:0}}>
+          <Grid
+            item
+            lg={4}
+            md={4.5}
+            sx={{ display: { md: "block", xs: "none" } }}
+          >
+            {/* <Box sx={{ textAlign: "end" , pb:0}}>
             <Typography fontSize={18} fontWeight={600} color="primary.main">
               {" "}
               Old Price: <strike>2300</strike>
@@ -192,9 +86,9 @@ const OrderForm = () => {
               New Price : 1800
             </Typography>
           </Box> */}
-          <Box component="img" src={kit} width="100%" />
+            <Box component="img" src={kit} width="100%" />
+          </Grid>
         </Grid>
-      </Grid>
       </div>
     </div>
   );

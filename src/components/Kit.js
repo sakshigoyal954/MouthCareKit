@@ -1,9 +1,9 @@
 import React from "react";
 import kit from "../images/dwai1.png";
-import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
+import { Box, Divider, Grid, Typography } from "@mui/material";
 import img1 from "../images/4.png";
 import Form2 from "./Form2";
-
+import add from "../images/add.jpeg";
 const Kit = () => {
   return (
     <div>
@@ -28,7 +28,23 @@ const Kit = () => {
           sx={{ borderRadius: 15 }}
         />
 
-<Form2/>
+        <Grid
+          container
+          pt={8}
+          sx={{ justifyContent: "space-between", alignItems: "center" }}
+        >
+          <Grid item lg={4.5} md={6} xs={12}>
+            <Box
+              component="img"
+              src={add}
+              width="100%"
+              sx={{ borderRadius: 15 }}
+            />
+          </Grid>
+          <Grid item lg={7} md={6} xs={12}>
+            <Form2 />
+          </Grid>
+        </Grid>
 
         <div>
           <Box py={3} sx={{ textAlign: "end" }}>
