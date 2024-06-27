@@ -50,7 +50,7 @@ const About = () => {
         </Box>
         <Box sx={{ borderLeft: "2.5px solid #DD952B", px: 3 }}>
           <Typography fontWeight={500} fontSize={25} textAlign="justify">
-            "यदि आप वास्तव में बंद मुंह खोलना चाहते हैं, तो डॉ.राजेश चतुर्वेदी
+            "यदि आप वास्तव में बंद मुंह खोलना चाहते हैं, तो AYURA MOUTHCARE KIT
             द्वारा विकसित उत्पादक उपयोग करें और फिर चमत्कार देखें"
           </Typography>
         </Box>

@@ -7,8 +7,8 @@ const OrderBtn = ({handelclick}) => {
   return (
     <Box pt={4} sx={{textAlign:"center"}}>
       <Button
+      type="submit"
       startIcon={<LogoutIcon/>}
-      onClick={handelclick}
         sx={{
           px: 6,
           py: 2,

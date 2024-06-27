@@ -16,7 +16,7 @@ const Kit = () => {
           py={3}
           textAlign="justify"
         >
-          डॉ.राजेश चतुर्वेदी 25 दिनों में मुंह खोलने की गंभीर से गंभीर समस्या को
+          AYURA MOUTHCARE KIT 25 दिनों में मुंह खोलने की गंभीर से गंभीर समस्या को
           भी ठीक कर सकते हैं। जहां तक मुंह खोलने की बात है, यदि आप सही तरीके से
           इलाज करते हैं, तो आपको 7 दिनों में परिणाम मिल जाएगा। जो उन्होंने अपने
           15 साल के अभ्यास में कई बार किया है।
@@ -38,7 +38,8 @@ const Kit = () => {
               component="img"
               src={add}
               width="100%"
-              sx={{ borderRadius: 15 }}
+              sx={{ borderRadius: 5 }}
+              mb={3}
             />
           </Grid>
           <Grid item lg={7} md={6} xs={12}>
@@ -142,8 +143,7 @@ const Kit = () => {
           <Box
             component="img"
             src={kit}
-            width="100%"
-            sx={{ borderRadius: 15 }}
+            sx={{ borderRadius: 5, width:"100%",textAlign:"center" }}
           />
         </Grid>
       </Grid>

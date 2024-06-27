@@ -14,8 +14,11 @@ const Exersice = () => {
             component="img"
             src={ex1}
             width="100%"
-            height="230px"
-            sx={{ borderRadius: 15,  }}
+            sx={{
+              borderRadius: 15,
+              textAlign: "center",
+              height: { lg: "230px", md: "auto", sm: "auto" },
+            }}
           />
         </Grid>
         <Grid lg={3} item data-aos="zoom-out-left">
@@ -23,8 +26,11 @@ const Exersice = () => {
             component="img"
             src={ex2}
             width="100%"
-            height="230px"
-            sx={{ borderRadius: 15,  }}
+            sx={{
+              borderRadius: 15,
+              textAlign: "center",
+              height: { lg: "230px", md: "auto", sm: "auto" },
+            }}
           />
         </Grid>
         <Grid lg={3} item>
@@ -32,8 +38,11 @@ const Exersice = () => {
             component="img"
             src={ex3}
             width="100%"
-            height="230px"
-            sx={{ borderRadius: 15,  }}
+            sx={{
+              borderRadius: 15,
+              textAlign: "center",
+              height: { lg: "230px", md: "auto", sm: "auto" },
+            }}
           />
         </Grid>
         <Grid lg={3} item>
@@ -41,8 +50,11 @@ const Exersice = () => {
             component="img"
             src={ex4}
             width="100%"
-            height="230px"
-            sx={{ borderRadius: 15,  }}
+            sx={{
+              borderRadius: 15,
+              textAlign: "center",
+              height: { lg: "230px", md: "auto", sm: "auto" },
+            }}
           />
         </Grid>
       </Grid>

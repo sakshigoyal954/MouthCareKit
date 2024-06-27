@@ -65,32 +65,30 @@ const Home = () => {
         <Box pb={5}>
           <About />
         </Box>
-
-        <Box pb={5}>
-          <TestImg />
-        </Box>
-
-        <Box pb={5}>
-          <Kit />
-        </Box>
-
-        <Box pb={5}>
-          <Discription />
-        </Box>
-
-        <Box pb={5}>
-          <Exersice />
-        </Box>
-
-        <Box pb={5}>
-          <Certificate />
-        </Box>
-
-        <Box>
-          <Review/>
-        </Box>
       </Container>
+      <Box pb={5}>
+        <TestImg />
+      </Box>
+      <Container>
+      <Box pb={5}>
+        <Kit />
+      </Box>
 
+      <Box pb={5}>
+        <Discription />
+      </Box>
+
+      <Box pb={5}>
+        <Exersice />
+      </Box>
+
+      <Box pb={5}>
+        <Certificate />
+      </Box>
+      </Container>
+      <Box sx={{ background: "#d5ebe6" }}>
+        <Review />
+      </Box>
       <Box pb={5} sx={{ backgroundColor: "primary.light" }}>
         <Container
           sx={{
