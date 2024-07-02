@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../utills/Layout";
 import { Box, Button, Container, Grid } from "@mui/material";
 import SubHeader from "../components/SubHeader";
@@ -14,8 +14,19 @@ import Footer from "../components/Footer";
 import logo from "../images/logo.png";
 import LogoutIcon from "@mui/icons-material/Logout";
 import Review from "../components/Review";
+import 'aos/dist/aos.css'; // Import the AOS CSS
+import Aos from "aos";
 const Home = () => {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 3000, // Adjust the animation duration as needed
+     offset:200,
+    });
+  }, []);
   return (
+
+    
     <Layout>
       <Container
         sx={{

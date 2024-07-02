@@ -1,9 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Box, Typography } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import headImg from "../images/1.jpg"; // Make sure the path to the image is correct.
-import 'aos/dist/aos.css'; // Import the AOS CSS
-import AOS from 'aos';
 
 const SubHeader = () => {
   // Data object containing the text to display
@@ -12,12 +10,7 @@ const SubHeader = () => {
       "पत्ते, मावा, गुटका या तंबाकू खाने के बाद मुंह खोलने में दिक्कत होती है? तो Ayura Mouthcare Kit मुँह खोलने में मदद करेगा।",
   };
   
-  useEffect(() => {
-    AOS.init({
-      duration: 3000, // Adjust the animation duration as needed
-     offset:200,
-    });
-  }, []);
+
   return (
     <>
       {/* Container for the animated text */}
