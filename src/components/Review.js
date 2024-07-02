@@ -10,7 +10,7 @@ const Review = () => {
           Reviews
         </Typography>
       </Box>
-      <Divider style={{ backgroundColor: "#DD952B" }} />
+      {/* <Divider style={{ backgroundColor: "#DD952B" }} /> */}
       <Grid
         container
         sx={{ justifyContent: "space-between" }}
@@ -18,7 +18,7 @@ const Review = () => {
         spacing={2}
       >
         {reviewData.map((item) => (
-          <Grid lg={4} md={4} sm={4} xs={12} item>
+          <Grid lg={4} md={4} sm={4} xs={12} item data-aos="zoom-in">
             <Box
               px={4}
               py={3}

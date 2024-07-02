@@ -16,7 +16,7 @@ const Certificate = () => {
         container
         sx={{ justifyContent: "space-between", alignItems: "center" }}
       >
-        <Grid item lg={5} md={6} xs={12}>
+        <Grid item lg={5} md={6} xs={12} data-aos="fade-right">
           <Box
             component="img"
             src={c1}
@@ -24,7 +24,7 @@ const Certificate = () => {
             sx={{ borderRadius: 15 }}
           />
         </Grid>
-        <Grid item lg={7} md={6} xs={12}>
+        <Grid item lg={7} md={6} xs={12} data-aos="fade-left">
           <Typography fontSize={20} textAlign="justify" sx={{ lineHeight: 2 }}>
             Ayura Mouthcare Kit से मुंह खुल जाएगा, मसूड़े मजबूत होंगे, दांत
             साफ होंगे और चांदी गिरना (छाले पड़ना) बंद हो जाएगी। और फिर धीरे धीरे

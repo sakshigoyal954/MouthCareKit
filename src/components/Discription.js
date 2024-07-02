@@ -4,7 +4,7 @@ import React from 'react'
 const Discription = () => {
   return (
     <div>
-          <div>
+          <div data-aos="fade-left">
         <Box py={3} >
           <Typography color={"#DD952B"} fontSize={26} padding={2}>
             क्या 1 उंगली से ज्यादा मुंह खोलना संभव है?
@@ -29,7 +29,7 @@ const Discription = () => {
         </Typography>
       </div>
 
-      <div>
+      <div data-aos="fade-right">
         <Box py={3} sx={{textAlign:"end"}}>
           <Typography color={"#DD952B"} fontSize={26} padding={2}>
             क्या 3 से 4 अंगुलियों से मुंह खोलना संभव है?

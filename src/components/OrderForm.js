@@ -67,7 +67,7 @@ const OrderForm = () => {
 
       <div id="contactUs">
         <Grid container justifyContent="space-between" alignItems="center">
-          <Grid item lg={7.5} md={7} xs={12}>
+          <Grid item lg={7.5} md={7} xs={12} data-aos="zoom-in-right">
             <Form2 />
           </Grid>
           <Grid
@@ -75,6 +75,7 @@ const OrderForm = () => {
             lg={4}
             md={4.5}
             sx={{ display: { md: "block", xs: "none" } }}
+            data-aos="zoom-in-left"
           >
             {/* <Box sx={{ textAlign: "end" , pb:0}}>
             <Typography fontSize={18} fontWeight={600} color="primary.main">

@@ -26,7 +26,7 @@ const TestImg = () => {
           spacing={3}
           pt={3}
         >
-          <Grid lg={4} md={4} xs={12} item>
+          <Grid lg={4} md={4} xs={12} item data-aos="flip-left">
             <Box
               component="img"
               src={t1}
@@ -35,7 +35,7 @@ const TestImg = () => {
               sx={{ borderRadius: 15, border: "2px solid #DD952B" }}
             />
           </Grid>
-          <Grid lg={4} md={4} xs={12} item data-aos="zoom-out-left">
+          <Grid lg={4} md={4} xs={12} item data-aos="flip-up">
             <Box
               component="img"
               src={t2}
@@ -44,7 +44,7 @@ const TestImg = () => {
               sx={{ borderRadius: 15, border: "2px solid #DD952B" }}
             />
           </Grid>
-          <Grid lg={4} md={4} xs={12} item>
+          <Grid lg={4} md={4} xs={12} item data-aos="flip-left">
             <Box
               component="img"
               src={t3}

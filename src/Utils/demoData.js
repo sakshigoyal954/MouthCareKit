@@ -1,7 +1,7 @@
  const reviewData = [
     {
         name:"Deepak Kumar",
-        description:"पहले मेरा मुंह नहीं खुलता था। जबसे मैंने AYURA MOUTHCARE KIT का इस्तेमाल किया है, मेरा मुंह पहले से बेहतर खुल रहा है।"
+        description:"जबसे मैंने AYURA MOUTHCARE KIT का इस्तेमाल किया है, मेरा मुंह पहले से बेहतर खुल रहा है।"
     },
     {
         name:"Mukesh Chand",

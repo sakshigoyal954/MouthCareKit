@@ -9,7 +9,7 @@ const About = () => {
         sx={{ justifyContent: "space-between", alignItems: "center" }}
       >
         <Grid item lg={7} md={8} sm={12}>
-          <Box pr={3}>
+          <Box pr={3} data-aos="fade-right"> 
             <Typography fontSize={30} fontWeight="bold">
             AYURA MOUTHCARE की चौंकाने वाली ख़ोज....
             </Typography>
@@ -31,7 +31,7 @@ const About = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item lg={5} md={4} sm={12}>
+        <Grid item lg={5} md={4} sm={12} data-aos="fade-left">
           <Box
             component="img"
             src={abtImg}
@@ -41,14 +41,14 @@ const About = () => {
       </Grid>
 
       <Stack spacing={4} py={3}>
-        <Box sx={{ borderLeft: "2.5px solid #DD952B", px: 3 }}>
+        <Box sx={{ borderLeft: "2.5px solid #DD952B", px: 3 }} data-aos="zoom-in-left">
           <Typography fontWeight={500} fontSize={25} textAlign="justify">
             "क्या आपको भी लगता है कि पान, मावा, गुटखा,खैनी या तंबाकू खाने से बंद
             हुए मुंह को फिर से पहले की तरह खोलना मुश्किल होता है ? तो ये बात
             बिल्कुल गलत है.!"
           </Typography>
         </Box>
-        <Box sx={{ borderLeft: "2.5px solid #DD952B", px: 3 }}>
+        <Box sx={{ borderLeft: "2.5px solid #DD952B", px: 3 }} data-aos="zoom-in-left">
           <Typography fontWeight={500} fontSize={25} textAlign="justify">
             "यदि आप वास्तव में बंद मुंह खोलना चाहते हैं, तो AYURA MOUTHCARE KIT
             द्वारा विकसित उत्पादक उपयोग करें और फिर चमत्कार देखें"

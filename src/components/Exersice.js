@@ -9,7 +9,7 @@ const Exersice = () => {
   return (
     <div>
       <Grid container sx={{ justifyContent: "space-between" }}>
-        <Grid lg={3} item>
+        <Grid lg={3} item data-aos="flip-left">
           <Box
             component="img"
             src={ex1}
@@ -33,7 +33,7 @@ const Exersice = () => {
             }}
           />
         </Grid>
-        <Grid lg={3} item>
+        <Grid lg={3} item data-aos="flip-left">
           <Box
             component="img"
             src={ex3}
@@ -45,7 +45,7 @@ const Exersice = () => {
             }}
           />
         </Grid>
-        <Grid lg={3} item>
+        <Grid lg={3} item data-aos="zoom-out-left">
           <Box
             component="img"
             src={ex4}
