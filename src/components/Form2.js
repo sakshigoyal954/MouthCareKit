@@ -138,7 +138,7 @@ const Form2 = () => {
                 />
               </FormControl>
             </Grid>
-            <Grid item lg={5.5} md={5.5} xs={12}>
+            <Grid item lg={12} md={12} xs={12}>
               <FormControl fullWidth>
                 <TextField
                   label="Pincode"
