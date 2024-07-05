@@ -5,7 +5,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 const OrderBtn = ({handelclick}) => {
   
   return (
-    <Box pt={4} sx={{textAlign:"center"}}>
+    <Box pt={4}>
       <Button
       type="submit"
       startIcon={<LogoutIcon/>}

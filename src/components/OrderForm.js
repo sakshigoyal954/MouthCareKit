@@ -77,16 +77,7 @@ const OrderForm = () => {
             sx={{ display: { md: "block", xs: "none" } }}
             data-aos="zoom-in-left"
           >
-            {/* <Box sx={{ textAlign: "end" , pb:0}}>
-            <Typography fontSize={18} fontWeight={600} color="primary.main">
-              {" "}
-              Old Price: <strike>2300</strike>
-            </Typography>
-            <Typography fontSize={20} fontWeight={600} color="common.green">
-              {" "}
-              New Price : 1800
-            </Typography>
-          </Box> */}
+           
             <Box component="img" src={kit} width="100%" />
           </Grid>
         </Grid>

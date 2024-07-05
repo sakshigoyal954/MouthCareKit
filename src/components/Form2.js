@@ -178,8 +178,9 @@ const Form2 = () => {
                   }}
                 />
               </FormControl>
-
+               <Box sx={{textAlign:"center"}}>
               <OrderBtn />
+                </Box>   
             </Grid>
           </Grid>
         </form>
