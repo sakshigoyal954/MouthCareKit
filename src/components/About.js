@@ -10,7 +10,7 @@ const About = () => {
       >
         <Grid item lg={7} md={8} sm={12}>
           <Box pr={3} data-aos="fade-right"> 
-            <Typography fontSize={30} fontWeight="bold">
+            <Typography fontSize={30} fontWeight="bold" data-aos="zoom-in-left">
             AYURA MOUTHCARE की चौंकाने वाली ख़ोज....
             </Typography>
             <Typography
@@ -31,7 +31,7 @@ const About = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item lg={5} md={4} sm={12} data-aos="fade-left">
+        <Grid item lg={5} md={4} sm={12} data-aos="flip-up">
           <Box
             component="img"
             src={abtImg}

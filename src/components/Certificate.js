@@ -5,7 +5,7 @@ import { Box, Divider, Grid, Typography } from "@mui/material";
 const Certificate = () => {
   return (
     <div>
-      <Box py={3}>
+      <Box py={3} data-aos="zoom-in-right">
         <Typography color={"#DD952B"} fontSize={26} padding={2}>
           आप किस तरीके की बात कर रहे हैं ?
         </Typography>
@@ -16,7 +16,7 @@ const Certificate = () => {
         container
         sx={{ justifyContent: "space-between", alignItems: "center" }}
       >
-        <Grid item lg={5} md={6} xs={12} data-aos="fade-right">
+        <Grid item lg={5} md={6} xs={12} data-aos="flip-left">
           <Box
             component="img"
             src={c1}

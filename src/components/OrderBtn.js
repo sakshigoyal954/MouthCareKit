@@ -23,6 +23,8 @@ const OrderBtn = ({handelclick}) => {
             color: "white",
           },
         }}
+        data-aos="zoom-in"
+
       >
          Order Now
       </Button>

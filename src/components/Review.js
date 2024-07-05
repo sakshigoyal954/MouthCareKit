@@ -6,7 +6,7 @@ const Review = () => {
   return (
     <Container>
       <Box pt={3}>
-        <Typography fontSize={28} fontWeight="bold" color="primary.main">
+        <Typography fontSize={28} fontWeight="bold" color="primary.main" data-aos="flip-left">
           Reviews
         </Typography>
       </Box>
@@ -38,7 +38,8 @@ const Review = () => {
               >
                 {item.description}
               </Typography>
-              <Typography fontSize={26} color="#DD952B" fontWeight={600}>
+         
+          <Typography fontSize={26} color="#DD952B" fontWeight={600}  data-aos="flip-left">
                 {item.name}
               </Typography>
             </Box>

@@ -5,7 +5,7 @@ const Discription = () => {
   return (
     <div>
           <div data-aos="fade-left">
-        <Box py={3} >
+        <Box py={3} data-aos="zoom-in-left" >
           <Typography color={"#DD952B"} fontSize={26} padding={2}>
             क्या 1 उंगली से ज्यादा मुंह खोलना संभव है?
           </Typography>
@@ -30,7 +30,7 @@ const Discription = () => {
       </div>
 
       <div data-aos="fade-right">
-        <Box py={3} sx={{textAlign:"end"}}>
+        <Box py={3} sx={{textAlign:"end"}} data-aos="zoom-in-right">
           <Typography color={"#DD952B"} fontSize={26} padding={2}>
             क्या 3 से 4 अंगुलियों से मुंह खोलना संभव है?
           </Typography>

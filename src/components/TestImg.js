@@ -35,7 +35,7 @@ const TestImg = () => {
               sx={{ borderRadius: 15, border: "2px solid #DD952B" }}
             />
           </Grid>
-          <Grid lg={4} md={4} xs={12} item data-aos="flip-up">
+          <Grid lg={4} md={4} xs={12} item data-aos="fade-up">
             <Box
               component="img"
               src={t2}

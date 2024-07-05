@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Layout from "../utills/Layout";
-import { Box, Container, Grid } from "@mui/material";
+import { Box, Button, Container, Grid } from "@mui/material";
 import SubHeader from "../components/SubHeader";
 import About from "../components/About";
 import Certificate from "../components/Certificate";
@@ -15,7 +15,8 @@ import logo from "../images/logo.png";
 import Review from "../components/Review";
 import "aos/dist/aos.css"; // Import the AOS CSS
 import Aos from "aos";
-import OrderBtn from "../components/OrderBtn";
+import LogoutIcon from "@mui/icons-material/Logout";
+
 const Home = () => {
   useEffect(() => {
     Aos.init({
@@ -31,8 +32,8 @@ const Home = () => {
         }}
       >
         <Box pt={3}>
-          <Grid container>
-            <Grid item lg={8} md={8} xs={8} data-aos="zoom-in" >
+          <Grid container sx={{alignItems:"center"}}>
+            <Grid item lg={8} md={8} xs={8} data-aos="flip-right">
               <Box
                 component="img"
                 src={logo}
@@ -40,9 +41,29 @@ const Home = () => {
                 sx={{ pt: { lg: 0, md: 2, sm: 2, xs: 2 } }}
               />
             </Grid>
-            <Grid item lg={4} md={4} xs={4} sx={{ textAlign: "end" }} pb={1}>
+            <Grid item lg={4} md={4} xs={4} sx={{ textAlign: "end", pb:{md:0,xs:1} }}>
               <a href="#contactUs">
-                <OrderBtn />
+                <Button
+                  type="submit"
+                  startIcon={<LogoutIcon />}
+                  sx={{
+                    px: {lg:6,md:6,xs:4},
+                    py:{lg:2,md:2,sm:1,xs:1},
+                    backgroundColor: "primary.main",
+                    color: "white",
+                    fontSize: { lg: "18px", xs: "12px" },
+                    fontWeight: "bold",
+                    borderRadius: "30px",
+                    textTransform: "capitalize",
+                    ":hover": {
+                      bgcolor: "#E89B0E",
+                      color: "white",
+                    },
+                  }}
+                  data-aos="zoom-in"
+                >
+                  Order Now
+                </Button>
               </a>
             </Grid>
           </Grid>

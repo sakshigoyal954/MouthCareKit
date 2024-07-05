@@ -50,7 +50,7 @@ const Kit = () => {
         </Grid>
 
         <div data-aos="fade-left">
-          <Box py={3} sx={{ textAlign: "end" }}>
+          <Box py={3} sx={{ textAlign: "end" }} data-aos="zoom-in-left">
             <Typography color={"#DD952B"} fontSize={26} padding={2}>
               यह रहस्य क्या है ?
             </Typography>
@@ -80,7 +80,7 @@ const Kit = () => {
       </div>
 
       <div data-aos="fade-right">
-        <Box py={3}>
+        <Box py={3} data-aos="zoom-in-right">
           <Typography color={"#DD952B"} fontSize={26} padding={2}>
             यह Ayura Mouthcare Kit कैसे काम करता है?
           </Typography>
@@ -105,7 +105,7 @@ const Kit = () => {
           चाहिए।
         </Typography>
       </div>
-      <Box pt={3} sx={{ textAlign: { md: "end", xs: "left" } }}>
+      <Box pt={3} sx={{ textAlign: { md: "end", xs: "left" } }} data-aos="zoom-in-left">
         <Typography color={"#DD952B"} fontSize={26} padding={2}>
           Ayura Mouthcare Kit में 2 प्रोडक्ट हैं।
         </Typography>
@@ -146,7 +146,7 @@ const Kit = () => {
           </Box>
         </Grid>
 
-        <Grid item lg={5} md={6} xs={10} data-aos="fade-left">
+        <Grid item lg={5} md={6} xs={10} data-aos="flip-left">
           <Box
             component="img"
             src={kit}

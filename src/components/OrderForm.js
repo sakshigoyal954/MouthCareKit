@@ -12,6 +12,7 @@ const OrderForm = () => {
           lineHeight={2}
           textAlign="justify"
           fontWeight={500}
+          data-aos="zoom-in-left"
         >
           मैं आपके पाठकों को बताउंगा कि मुंह खुलने की समस्या आज बहुत से लोगों को
           हो रही है और उन्होंने कई दवाइयां, सर्जरी, ऑपरेशन, इंजेक्शन भी ले लिए
@@ -21,13 +22,14 @@ const OrderForm = () => {
         </Typography>
 
         <Grid item lg={10}>
-          <Box sx={{ display: { md: "flex", xs: "block" } }}>
+          <Box sx={{ display: { md: "flex", xs: "block" } }} >
             <Typography
               fontSize={20}
               lineHeight={2}
               textAlign="justify"
               fontWeight={600}
               pt={3}
+              data-aos="zoom-in-left"
             >
               • 95% लोगों के मुंह खुल गए
             </Typography>
@@ -38,6 +40,7 @@ const OrderForm = () => {
               fontWeight={600}
               pt={3}
               sx={{ pl: { md: 4, xs: 0 } }}
+              data-aos="zoom-in-left"
             >
               • सिर्फ 7 दिन में मुंह खुलने लगेगा
             </Typography>
@@ -48,6 +51,7 @@ const OrderForm = () => {
               fontWeight={600}
               pt={3}
               sx={{ pl: { md: 4, xs: 0 } }}
+              data-aos="zoom-in-left"
             >
               • 100% संतुष्टि की गारंटी के साथ
             </Typography>
@@ -58,6 +62,7 @@ const OrderForm = () => {
             textAlign="justify"
             fontWeight={600}
             pt={3}
+            data-aos="zoom-in"
           >
             <b style={{ color: "#DD952B" }}>Ayura Mouthcare Kit</b> ऑर्डर देने
             के लिए नीचे दिया गया फॉर्म भरें।
