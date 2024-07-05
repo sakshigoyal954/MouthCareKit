@@ -118,7 +118,19 @@ const Kit = () => {
       >
         <Grid item lg={7} md={6} xs={12}>
           <Box pr={3} data-aos="fade-right">
-            <h3>1) फोरम गम मसाज पाउडर</h3>
+            <h3>1)Ayura Mouth Care with मसाज लोशन</h3>
+            <Typography
+              fontSize={18}
+              textAlign="justify"
+              pt={1}
+              sx={{ lineHeight: 2 }}
+            >
+              दिन में दो बार 3 से 5 मिनट तक मसूड़ों पर मसाज करें फिर गर्म पानी
+              से गरारे करे।
+           
+            </Typography>
+
+            <h3 style={{ paddingTop: "20px" }}>2)Ayura Mouth Care with Spray</h3>
             <Typography
               fontSize={18}
               textAlign="justify"
@@ -128,17 +140,8 @@ const Kit = () => {
               सुबह और शाम को एक बार उंगली से दांतों को ब्रश करें और फिर कुल्ला
               कर लें। मसूढ़ों की जकड़न, सांसों की दुर्गंध, दांतों-मसूड़ों को
               मजबूत बनाती है, मुंह खोलने में मदद करती है।
-            </Typography>
-
-            <h3 style={{ paddingTop: "20px" }}>2) माउथ केयर लोशन</h3>
-            <Typography
-              fontSize={18}
-              textAlign="justify"
-              pt={1}
-              sx={{ lineHeight: 2 }}
-            >
-              दिन में दो बार 3 से 5 मिनट तक मसूड़ों पर मसाज करें फिर गर्म पानी
-              से गरारे करे।
+              दिन में दो बार 2 से 3 बार मुँह में Mouth Care Spray करे |
+             
             </Typography>
           </Box>
         </Grid>
