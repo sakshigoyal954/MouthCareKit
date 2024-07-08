@@ -75,7 +75,7 @@ const Form2 = () => {
           border: "2px solid #DD952B",
           padding: "10px 10px 30px 10px",
           borderRadius: "15px",
-          backgroundColor: "primary.light",
+          backgroundColor: "#e3f46a",
         }}
       >
         <h2
@@ -87,7 +87,7 @@ const Form2 = () => {
             color: "#DD952B",
           }}
         >
-          Order Now
+          अभी ऑर्डर करें
         </h2>
 
         <form onSubmit={handelSubmit}>

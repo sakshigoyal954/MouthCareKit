@@ -11,19 +11,18 @@ const OrderBtn = ({handelclick}) => {
       startIcon={<LogoutIcon/>}
         sx={{
           px: 6,
-          py: 2,
+          py: 1,
           backgroundColor: "primary.main",
           color: "white",
           fontSize: { lg: "18px", sm: "12px" },
           fontWeight:"bold",
-          borderRadius: "30px",
+          borderRadius: "10px",
           textTransform: "capitalize",
           ":hover": {
             bgcolor: "#E89B0E",
             color: "white",
           },
         }}
-        data-aos="zoom-in"
 
       >
          Order Now
